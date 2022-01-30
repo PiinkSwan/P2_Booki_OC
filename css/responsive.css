@@ -1,0 +1,213 @@
+@media screen and (max-width: 992px) {
+    body {
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+        margin-top: 0px;
+        font-family: 'Raleway', sans-serif;
+      }
+
+      .card_img{
+        width: 40%;
+        height: 154px;
+        object-fit: cover;
+        display: inline;
+        border-top-left-radius: 18px;
+        border-bottom-left-radius: 18px;
+      
+      }
+
+      .footer{
+        margin-top: 50px;
+      }
+
+}
+
+    @media screen and (max-width: 768px) {
+          body {
+              margin-top: 0px;
+              font-family: 'Raleway', sans-serif;
+          }
+          #logo {
+              width: 129px;
+              margin-left: 11%;
+          }
+
+          /****Navigation activités & hébergement****/
+          nav {
+              height: 150px;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              flex-direction: column;
+          }
+
+          nav a {
+              width: 100%;
+              display: flex;
+              justify-content: center;
+          }
+
+          .container_nav_bar1:hover{
+              border-bottom: #0065FC 3px solid;
+              border-top: none;
+          }
+                  
+          .container_nav_bar2:hover{
+              border-bottom: #0065FC 2px solid;
+              border-top: none;
+          }
+        
+          #container_nav{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-self: flex-end;
+        }
+
+          /****Titre****/
+            h1 {
+            font-weight: 700;
+            font-size: 29px;
+            width: 90%;
+          }
+          p {
+            color: black;
+            font-size: 17px;
+            margin-top: -2px;
+          }
+
+          .info {
+            margin: 3px;
+          }
+          /****Search mobile****/
+          #research{
+            display: flex;
+            height: 70px;
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+            margin-left: 2.5%;
+          }
+
+          #research_input{
+            width: 80%;
+            height: 70%;
+            border: none;
+            border-top: solid 1px #F2F2F2;
+            border-bottom: solid 1px #F2F2F2;
+            padding: 0 0 0 20px;
+          }
+
+          #research_button_phone {
+            background-color: #0065FC;
+            color: wheat;
+            font-weight: bold;
+            width: 53px;
+            height: 93%;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 14px;
+            border: none;
+            border-radius: 20px;
+          }
+
+          #research_button_phone {
+            display: initial;
+          }
+
+          #button_research{
+            display: none;
+          }
+
+
+          /*****Main section hébergement & populaire****/
+          .section_content {
+            display: flex;
+            flex-direction: column-reverse;
+            height: 1203px;
+            width: 343%;
+            margin-left: -22px;
+          }
+
+          #section_1_hebergement{
+            width: 143%;
+            display: block;
+            margin-left: -18px;
+          }
+
+          .hebergement_section1 {
+            margin: 13px;
+          }
+
+          .section_1_part1 {
+            width: 68%;
+            height: 600px;
+            border-radius: 25px;
+            padding: 20px;
+          }
+
+          .title_section_h3 {
+            margin-left: auto;
+          }
+
+          .afficher {
+            margin-top: 926px;
+            margin-left: 8px;
+          }
+
+          .element {
+            width: 29%;
+            background-color: #f4f3f3;
+            border-radius: 15px;
+            margin-bottom: -54px;
+          }
+
+
+
+          /*****Activités*****/
+          .activite-list {
+            height: 313px;
+            margin-top: 29px;
+            text-align: center;
+          }
+
+          #activites {
+            margin-top: 976px;
+          }
+
+          .card_info {
+            font-size: 14px;
+          }
+
+          .info p{
+            display: initial;
+            font-size: inherit;
+          }
+
+          .activite-list{
+            display: flex;
+            flex-direction: column;
+            width: 440%;
+            margin-left: -7px;
+          }
+        
+          .activite-list .column article img{
+            object-fit: cover;
+            border-radius: 25px 25px 0px 0px;
+            height: 171px;
+            display: flex;
+          }
+
+          /*****Footer****/
+          .footer{
+            margin-top: 1072px;
+
+          }
+
+          .footerwrap{
+            flex-direction: column;
+
+          }
+
+      }
+
